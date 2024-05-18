@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="assets/favicon(180x180).png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5a3e110746.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/script.js" defer></script>
+    <title>Instagram</title>
+  </head>
+  <body>
+    <!-- Area wrapper -->
+    <div id="wrapper">
+      <!-- Area contianer -->
+      <div class="container">
+        <!-- Area esquerda -->
+        <div class="column left">
+          <div class="overlay">
+            <img id="overlayImage" src="assets/screenshot1.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Area direita -->
+        <div class="column right">
+          <div class="login-panel">
+            <div class="logo">
+              <img
+                class="logo-img"
+                src="./assets/Instagram-Logo.png"
+                alt="logo do Instagram"
+              />
+            </div>
+            <form>
+              <input
+                type="text"
+                placeholder="Telefone, nome de usuário ou email"
+                name="username"
+              />
+              <input type="password" placeholder="Senha" />
+              <input type="submit" value="Entrar" />
+              <div class="line">
+                <span class="border"></span>OU<span class="border"></span>
+              </div>
+              <div class="facebook">
+                <a
+                  target="_blank"
+                  href="https://pt-br.facebook.com/login/device-based/regular/login/"
+                  ><i class="fa-brands fa-square-facebook"></i> Entrar com o
+                  facebook</a
+                >
+              </div>
+              <div class="remember-password">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/accounts/password/reset/"
+                  >Esqueceu a senha?</a
+                >
+              </div>
+            </form>
+          </div>
+
+          <div class="infobox">
+            <p>Não possui uma conta? <a href="signup.html">Cadastra-se</a></p>
+          </div>
+
+          <div class="get-app-panel">
+            Obtenha o aplicativo.
+            <div class="app-button">
+              <a href="#">
+                <img
+                  src="./assets/googlePlay.png"
+                  alt="Baixe o aplicativo na loja do google play"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/Microsoft.png"
+                  alt="Baixe o aplicativo na loja da Microsoft "
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Rodapé -->
+      <footer class="footer-inner">
+        <ul>
+          <li><a href="#">Meta</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Carreira</a></li>
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">API</a></li>
+          <li><a href="">Privacidade</a></li>
+          <li><a href="">Termos</a></li>
+          <li><a href="">Localização</a></li>
+          <li><a href="">Instagram Lite</a></li>
+          <li><a href="">Threads</a></li>
+          <li><a href="">Carregamento de contatos e não usuário</a></li>
+          <li><a href="">Meta Verified</a></li>
+        </ul>
+        <div class="copyright">
+          <select name="" id="">
+            <option value="portugues" selected>Português</option>
+            <option value="english">English</option>
+            <option value="spanish">Español</option>
+            <option value="french">Français</option>
+            <option value="german">Deutsch</option>
+            <option value="italian">Italiano</option>
+            <option value="japanese">日本語</option>
+            <option value="chinese">中文</option>
+            <option value="russian">Русский</option>
+          </select>
+          <span>© 2024 Instagram from Meta</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
