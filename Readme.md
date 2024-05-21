@@ -8,6 +8,7 @@ Abaixo você pode ver uma imagem de demonstração da projeto:
 
 <img src="demo.png" alt="Demostração projeto" />
 
+Link demo: https://diegolimacoder.github.io/clone_Instagram/
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte maneira:
