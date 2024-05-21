@@ -8,7 +8,7 @@ Abaixo você pode ver uma imagem de demonstração da projeto:
 
 <img src="demo.png" alt="Demostração projeto" />
 
-Link demo: https://diegolimacoder.github.io/clone_Instagram/
+Link demo: <a target="_black" href="https://diegolimacoder.github.io/clone_Instagram/">clone Insagram </a>
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte maneira:
